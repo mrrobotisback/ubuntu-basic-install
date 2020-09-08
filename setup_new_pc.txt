@@ -1,0 +1,68 @@
+Install ubuntu:
+
+Download iso from ubuntu site.
+Download rufus.
+Preprare flash usb with rufus.
+Install into ssd.
+
+OS software needed:
+
+init pc:
+
+1) sudo apt-get update
+2) sudo apt-get upgrade
+3) sudo apt-get install vim
+4) sudo apt-get install guake
+5) Setting -> keyboard Shortcuts -> add guake with ctrl + shift + f12
+6) Change appeare and disappeare guake with preferance shift + f12
+7) sudo snap refresh
+8) sudo snap install telegram-desktop
+9) wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo apt install ./google-chrome-stable_current_amd64.deb
+10) Download toolbox: https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=linux && install php storm from toolbox sudo tar -xzf jetbrains-toolbox-1.13.4801.tar.gz -C /opt || install sudo snap install phpstorm --classic
+11) sudo apt install clipit && change prefreneces -> hotkeys -> history hotkeys -> <Ctrl><Alt>X || sudo apt install copyq if clipit not work(ubuntu 20.04)
+12) sudo apt install git && apt-get install git-flow
+13) sudo apt install docker-compose && sudo usermod -aG docker $USER && newgrp docker
+14) sudo apt install make
+15) Setup git profile for commit in local project go to root prj and: git config user.name "mrrobotisback" && git config user.email gherb95@gmail.com
+For global settings: git config user.name "Your Name Here" && git config user.email your@email.com
+16) setup editor in git commit: git config --global core.editor vim
+17) Setup ssh for autopush with public key: 
+18) Install skype: wget https://go.skype.com/skypeforlinux-64.deb && Open with gui the install
+19) sudo snap install rambox
+20) Slack -> download from https://slack.com/intl/en-it/downloads/linux and install with gui
+21) sudo snap install lolcat
+22) sudo apt install fortune-mod
+23) sudo apt install neofetch
+24) sudo apt  install figlet
+25) sudo apt install htop
+26) Install insomnia:
+ # Add to sources
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" \
+    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+
+# Add public key used to verify code signature
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc \
+    | sudo apt-key add -
+
+# Refresh repository sources and install Insomnia
+sudo apt-get update
+sudo apt-get install insomnia
+
+27) sudo snap install postman
+28) Install mysql workbench focal fossa(Ubuntu 20.04 LTS):
+echo "deb http://repo.mysql.com/apt/ubuntu/ focal mysql-tools" | sudo tee /etc/apt/sources.list.d/mysql.list
+sudo apt update --> this run and errore and output a no publick key with realtive value take this and
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys insert here the value of prevous step.
+sudo apt update 
+sudo apt install mysql-workbench-community
+29) sudo apt-get update && sudo apt install filezilla
+30) sudo apt-get update && wget https://github.com/BoostIO/BoostNote.next/releases/latest/download/boost-note-linux.deb && sudo apt install ./boost-note-linux.deb 
+31) sudo apt install ncftp
+32) sudo apt install lftp
+33) wget http://www.crossftp.com/crossftp_1.99.4.deb && install from gui
+34) wget https://www.yworks.com/resources/yed/demo/yEd-3.20_with-JRE14_64-bit_setup.sh && chmod +x yEd-3.20_with-JRE14_64-bit_setup.sh && ./yEd-3.20_with-JRE14_64-bit_setup.sh
+35) sudo apt update && sudo apt-get install poedit
+36) download https://download.screamingfrog.co.uk/products/seo-spider/screamingfrogseospider_13.2_all.deb && install from gui
+37) sudo snap install --classic code (JS use)
+
+
