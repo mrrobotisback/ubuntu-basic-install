@@ -64,5 +64,5 @@ sudo apt install mysql-workbench-community
 35) sudo apt update && sudo apt-get install poedit
 36) download https://download.screamingfrog.co.uk/products/seo-spider/screamingfrogseospider_13.2_all.deb && install from gui
 37) sudo snap install --classic code (JS use)
-
+38) sudo apt install npm
 
